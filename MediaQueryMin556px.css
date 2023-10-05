@@ -1,0 +1,672 @@
+@media(max-width:450px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    a {
+        text-decoration: none;
+        list-style-type: none;
+        color: #ffff;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .dis-flex {
+        display: flex;
+    }
+
+    .bg-banner {
+        background-image: url(Images/banner-Background.png);
+        height: 650px;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+
+    .bg-banner .Nav-bar {
+        display: flex;
+        width: 100%;
+    }
+
+    .bx-menu {
+        display: block;
+        color: #fff;
+        font-size: 30px;
+    }
+
+
+    .menu-list {
+        display: block;
+        color: #fff;
+    }
+
+    .bg-banner .Nav-bar .Nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+
+    .bg-banner .Nav-bar .Nav-links .nav-items {
+        display: none;
+        justify-content: space-between;
+        width: 89%;
+        color: #ffff;
+        align-items: end;
+    }
+
+    .bg-banner .Nav-bar .Nav-links .nav-items li a {
+        color: #F0F2F5;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .bg-banner .banner-info {
+        width: 70%;
+        margin: 110px 0px;
+    }
+
+
+    .bg-banner .banner-info .ban-heading {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: -2px;
+    }
+
+
+
+    .bg-banner .banner-para p {
+        position: relative;
+        color: #000;
+        font-family: Inter;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        width: 50%;
+        margin-top: 27%;
+    }
+
+    .bg-banner .banner-para .side-arrow {
+        margin-top: 30%;
+        margin-left: 10%;
+        font-size: 50px;
+    }
+
+
+
+    .project {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        background-color: #000;
+        color: #FFF;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+    .project h2 {
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: -2.5px;
+    }
+
+    .project p {
+        width: 100%;
+        color: #F0F2F5;
+        text-align: center;
+        font-family: IBM Plex Sans;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+    }
+
+
+
+    .software-process {
+        background-color: #F0F2F5;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+
+    .process {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .process .proce-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 50%;
+        gap: 10px;
+    }
+
+    .process .proce-info h2 {
+        color: #000;
+        font-family: Inter;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: -0.5px;
+        text-align: center;
+    }
+
+    .process .proce-info .icon {
+        padding: 15px;
+    }
+
+    .process .proce-info i {
+        background-color: #FFF;
+        border-radius: 50%;
+        padding: 20px;
+    }
+
+    .process .proce-info .proc-rules {
+        background-color: #FFF;
+        padding: 15px;
+        border-radius: 12px;
+        width: 221px;
+        height: 200px;
+        ;
+    }
+
+    .process .proce-info .proc-rules h6 {
+        color: #000;
+
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: -1px;
+    }
+
+    .process .proce-info .proc-rules p {
+        color: #47556A;
+        font-family: IBM Plex Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    .proce-img {
+        width: 50%;
+        text-align: center;
+        margin: 0px 0px;
+        padding: 35px
+    }
+
+    .proce-img p {
+        color: #47556A;
+        width: 100%;
+        font-family: IBM Plex Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        margin: 0px 70px;
+    }
+
+    .proce-img .img-1 img {
+        width: 300px;
+        height: 273px;
+        padding: 10px;
+    }
+
+    .proce-img .img-2 img {
+        width: 300px;
+        height: 393px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+
+    .ser-head {
+        display: block;
+    }
+
+    .Service-provide .ser-head h2 {
+        color: #000;
+        font-family: Inter;
+        font-size: 30px;
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: -0.5px;
+    }
+
+    .serv {
+        display: block;
+    }
+
+    .Service-provide .serv i {
+        font-size: 30px;
+    }
+
+    .Service-provide .Ser-Electr {
+        padding: 10px;
+    }
+
+    .Service-provide .ser-head p {
+        display: flex;
+        align-items: end;
+        width: 100%;
+        color: #47556A;
+        font-family: IBM Plex Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 15px;
+        text-align: center;
+    }
+
+    .Service-provide .serv h3 {
+        color: #000;
+        font-family: Inter;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        letter-spacing: 0px;
+    }
+
+    .Service-provide .serv p {
+        color: #47556A;
+        font-family: IBM Plex Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        padding: 0px;
+    }
+
+    .Service-provide .serv .read-btn button {
+        display: flex;
+        font-size: 10px;
+        transition: 1s ease;
+    }
+
+    .Service-provide .serv .read-btn:hover {
+        transition: 1s ease;
+        color: blue;
+        cursor: pointer;
+    }
+
+
+
+    .industr {
+        display: block;
+    }
+
+    .unb-locate {
+        margin: 50px 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .unb-locate h2 {
+        color: #000;
+        font-family: Inter;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: -0.5px;
+    }
+
+    .unb-locate p {
+        color: #47556A;
+        font-family: IBM Plex Sans;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .ser-book {
+        border-radius: 24px;
+        background: #F0F2F5;
+        width: 100%;
+        padding: 3px;
+        margin-top: 10px;
+    }
+
+    .ser-book .indus {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 14px;
+        padding: 5px;
+    }
+
+
+    .ser-book .indus .ser-item {
+        padding: 8px;
+        background-color: #FFF;
+        color: #000;
+        font-family: Inter;
+        font-size: 9px;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0px
+    }
+
+    .ser-book .indus .ser-item i {
+        font-weight: 500;
+        padding: 5px;
+    }
+
+
+
+    .soft-startup {
+        margin-top: 5%;
+    }
+
+    .soft-startup h2 {
+        color: #000;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: -0.5px
+    }
+
+    .Envision {
+        display: block;
+        margin-top: 10px;
+
+    }
+
+    .Envision .staff {
+        padding: 20px;
+        width: 100%;
+        border: 1px solid #47556A;
+        border-radius: 12px;
+    }
+
+    .Envision .staff h3 {
+        font-size: 18px;
+    }
+
+    .Envision .staff p {
+        color: #47556A;
+        font-family: IBM Plex Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 13px;
+        padding: 4px;
+    }
+
+    .Envision .staff button {
+        text-align: start;
+        padding: 5px;
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Envision .staff button:hover {
+        background-color: blue;
+        transition: ease-in 1s;
+        color: #FFF;
+    }
+
+
+    .choose-us {
+        background-color: #F0F2F5;
+        padding: 25px;
+    }
+
+    .choose-us .choose-one {
+        display: block;
+        width: 100%;
+
+    }
+
+    .choose-us h2 {
+        color: #000;
+        font-family: Inter;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 600;
+        padding: 10px;
+        line-height: 50px;
+        letter-spacing: -1.5px;
+
+    }
+
+    .choose-us .choose-one .features {
+        background-color: #FFF;
+        padding: 10px;
+        width: 90%;
+        margin: 10px 7px;
+        padding: 8px;
+        border-radius: 12px;
+        box-shadow: -10px 0px 45px 0px #aaa
+    }
+
+    .choose-us .choose-one .features i {
+        border: 1px solid #47556A;
+        padding: 10px;
+        border-radius: 12px;
+        font-size: 20px;
+    }
+
+    .choose-us .choose-one .features h3 {
+        color: #000;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+
+    .choose-us .choose-one .features p {
+        color: #47556A;
+        font-family: IBM Plex Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+    .choose-us .choose-one2 {
+        display: block;
+    }
+
+    .choose-us .choose-one2 .features {
+        background-color: #FFF;
+        padding: 10px;
+        width: 90%;
+        margin: 10px 7px;
+        padding: 8px;
+        border-radius: 12px;
+        box-shadow: -10px 0px 45px 0px #aaa
+    }
+
+
+
+    .choose-us .choose-one2 .features h3 {
+        color: #000;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 35px;
+    }
+
+    .choose-us .choose-one2 .features p {
+        color: #47556A;
+        font-family: IBM Plex Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+    }
+
+
+    .ideas-product {
+        margin-top: 5%;
+    }
+
+    .produ-idea {
+        display: block;
+
+    }
+
+    .produ-idea .prod-data h3 {
+        color: #000;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: -1.5px;
+        width: 69%;
+    }
+
+    .produ-idea .prod-data p {
+        color: #47556A;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px
+    }
+
+    .produ-idea .prod-data button {
+
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        border-radius: 12px;
+    }
+
+
+
+    .footer {
+        background-image: url(Images/footer-background.png);
+        height: 700px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    .footer .foot {
+        position: absolute;
+        color: #FFF;
+        margin-right: 70px;
+    }
+
+    .footer .foot2 {
+        margin-top: 40%;
+        color: #FFF;
+    }
+
+    .footer .foot .company-service {
+        display: flex;
+    }
+
+    .footer .foot h2 {
+        color: #FFF;
+        font-weight: 500;
+        margin-left: 30px;
+        padding: 10px;
+    }
+
+    .footer .foot .fot-ser {
+        margin-left: 45px;
+    }
+
+    .footer .foot .company-service ul {
+        display: flex;
+    }
+
+    .footer .foot .company-service li {
+        padding: 6px;
+        color: var(--Background, #F0F2F5);
+        font-family: IBM Plex Sans;
+        font-size: 5px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 5px;
+    }
+
+    .footer .foot .foot-nav li {
+        padding: 10px;
+        color: #F0F2F5;
+        font-family: IBM Plex Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .footer .foot .foot-address {
+        display: block;
+        width: 100%;
+        margin-left: 40px;
+    }
+
+    .footer .foot .foot-address .addre {
+        width: 100%;
+        font-size: 12px;
+    }
+
+
+    .footer .foot .foot-address .add-em {
+        margin-left: 0%;
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .footer .foot .foot-address .add-em button {
+        background-color: blue;
+        color: white;
+        border-radius: 12px;
+    }
+
+    .foot-sign {
+        display: block;
+        width: 100%;
+        justify-content: space-between;
+        margin-left: 30px;
+        color: #FFF;
+    }
+
+    .foot .foot-sign .foot-logo i {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .foot .foot-sign .sign {
+        font-size: 12px;
+    }
+}
