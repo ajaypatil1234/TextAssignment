@@ -80,7 +80,7 @@
     .bg-banner .banner-info .ban-heading {
         color: #FFF;
         font-family: Inter;
-        font-size: 29px;
+        font-size: 40px;
         font-style: normal;
         font-weight: 600;
         letter-spacing: -2px;
@@ -97,11 +97,11 @@
         font-weight: 500;
         line-height: 20px;
         width: 50%;
-        margin-top: 27%;
+        margin-top: 3%;
     }
 
     .bg-banner .banner-para .side-arrow {
-        margin-top: 30%;
+        margin-top: 20%;
         margin-left: 10%;
         font-size: 50px;
     }
