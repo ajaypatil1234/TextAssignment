@@ -72,7 +72,7 @@
     }
 
     .bg-banner .banner-info {
-        width: 70%;
+        width: 100%;
         margin: 110px 0px;
     }
 
@@ -97,7 +97,7 @@
         font-weight: 500;
         line-height: 20px;
         width: 50%;
-        margin-top: 25%;
+        margin-top: 18%;
     }
 
     .bg-banner .banner-para .side-arrow {
@@ -126,8 +126,8 @@
         font-size: 17px;
         font-style: normal;
         font-weight: 600;
-        line-height: 25px;
-        letter-spacing: -2.5px;
+        line-height: 14px;
+        letter-spacing: 2.5px;
     }
 
     .project p {
@@ -135,7 +135,7 @@
         color: #F0F2F5;
         text-align: center;
         font-family: IBM Plex Sans;
-        font-size: 9px;
+        font-size: 10px;
         font-style: normal;
         font-weight: 400;
         line-height: 13px;
