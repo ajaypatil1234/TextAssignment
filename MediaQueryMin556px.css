@@ -93,7 +93,7 @@
         position: relative;
         color: #000;
         font-family: Inter;
-        font-size: 10px;
+        font-size: 9px;
         font-style: normal;
         font-weight: 500;
         line-height: 20px;
@@ -102,8 +102,8 @@
     }
 
     .bg-banner .banner-para .side-arrow {
-        margin-top: 20%;
-        margin-left: 10%;
+        margin-top: 25%;
+        margin-left: 15%;
         font-size: 50px;
     }
 
