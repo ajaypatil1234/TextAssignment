@@ -258,7 +258,9 @@
     }
 
     .serv {
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4px;
     }
 
     .Service-provide .serv i {
@@ -397,9 +399,9 @@
     }
 
     .Envision {
-        display: block;
+        display: grid;
         margin-top: 10px;
-
+        gap: 15px;
     }
 
     .Envision .staff {
